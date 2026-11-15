@@ -94,6 +94,16 @@ class FuzzyEnvironment:
         self.obs_c = centers
         self.obs_invL = np.array(inv)
 
+    def move_obstacles(self, centers):
+        """
+        Atomik engellerin yalnizca merkezlerini gunceller (boyutlar ayni kalir).
+        Her ornekleme aninda yeni (gurultulu) olcum geldiginde kullanilir;
+        set_obstacles'taki matris tersini her adimda yeniden hesaplamaktan kurtarir.
+        """
+        centers = np.atleast_2d(centers).astype(float)
+        assert centers.shape == self.obs_c.shape, "engel sayisi degismemeli"
+        self.obs_c = centers
+
     # ------------------------------------------------------------------
     # Uyelik fonksiyonlari.  x: (..., 2) tek nokta ya da nokta izgarasi
     # ------------------------------------------------------------------
