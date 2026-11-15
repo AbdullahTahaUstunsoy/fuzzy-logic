@@ -5,6 +5,11 @@ planlama yöntemi (FPPA) Python ile yeniden gerçekleştirilmiş, makaledeki Cas
 yeniden üretilmiş ve gürültülü engel algılama altında çalışan **belirsizliğe duyarlı
 üyelik fonksiyonu** önerilip test edilmiştir.
 
+## Report and Presentation
+
+- Teknik rapor (Türkçe): [`report/report.pdf`](report/report.pdf)
+- Sunum: [`presentation/presentation.pdf`](presentation/presentation.pdf)
+
 ## Student Information
 
 - **Ad Soyad:** Abdullah Taha Üstünsoy
