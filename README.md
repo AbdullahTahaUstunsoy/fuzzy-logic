@@ -39,8 +39,8 @@ ortamında, makalede verilen engel ve rota tanımlarıyla yapılmaktadır.
 ## Installation
 
 ```bash
-git clone https://github.com/AbdullahTahaUstunsoy/fuzzy-logic-project.git
-cd fuzzy-logic-project
+git clone https://github.com/AbdullahTahaUstunsoy/fuzzy-logic.git
+cd fuzzy-logic
 pip install -r requirements.txt
 ```
 
